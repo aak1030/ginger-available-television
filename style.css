@@ -1,0 +1,142 @@
+
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  outline: 0;
+}
+
+/* ----- inteneded to adjust the alert box,
+        but probably not possible because
+        it is part of the head
+        
+.Opener {
+  border-radius: 30px;
+} */
+
+
+/* gradient background not working ..... */
+body {
+  background-color: rgb(255,255,255);
+  background-color: radial-gradient(circle, rgba(255,255,255,1) 0%, rgba(0,0,0,0.5886948529411764) 79%, rgba(5,5,5,0.9304315476190477) 100%);
+}
+
+
+section {
+  display: flex;
+  flex-direction: column;
+  height: 110vh;
+}
+
+.PartTwo,
+.PartFour {
+  background-color: rgb(148, 148, 148);
+}
+
+
+.Buttons {
+  position: absolute;
+  margin: 10%;
+  max-width: 80%;
+  max-height: 80%;
+  background-color: rgb(230, 230, 230);
+
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+
+  align-content: space-around;
+  justify-content: center;
+
+  flex-shrink: 3;
+}
+
+
+button {
+  position: relative;
+  width: 320px;
+  height: 180px;
+
+  margin: 0.5%;
+
+  border-radius: 10px;
+
+  background-color: rgb(41, 41, 41);
+
+  cursor: pointer;
+  transition: transform 0.7s ease-in, opacity 0.7s ease-in-out;
+  transform: scaleX(1.0, 1.0);
+  opacity: 1;
+}
+
+button:hover {
+  transform: scale(1.05, 1.05);
+  opacity: 0.2;
+  
+}
+
+
+.artistName{
+  /* visibility: hidden; -------- not working */
+
+  font-size: 20px;
+  font-weight: bold;
+  color: rgb(32, 32, 32);
+
+  transition: transform 0.7s ease-in, opacity 0.7s ease-in;
+  transform: scaleX(1.0, 1.0);
+  opacity: 0;
+}
+
+.artistName:hover{
+  /* visibility: initial; ------- not working */ 
+
+  opacity: 1;
+  transform: scale(2,2)
+}
+
+
+
+
+
+.Buttons-One {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FBRKN%20(bordeaux).png?v=1604342586967");
+  background-size: cover;
+}
+.Buttons-Two {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FDermot%20Kennedy%20(%20graublau%20).png?v=1604342587980");
+  background-size: cover;
+}
+.Buttons-Three {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FGeorge%20the%20Poet%20(gelb).png?v=1604342585378");
+  background-size: cover;
+}
+.Buttons-Four {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FCleo%20(orange).png?v=1604342586645");
+  background-size: cover;
+}
+.Buttons-Five {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FBenjamin%20Amaru%20(dunkelgr%C3%BCn).png?v=1604342587239");
+  background-size: cover;
+}
+.Buttons-Six {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FLianne%20LaHavas%20(dunkelrot).png?v=1604342584669");
+  background-size: cover;
+}
+.Buttons-Seven {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FHaute%20(rot).png?v=1604342585060");
+  background-size: cover;
+}
+.Buttons-Eight {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FDaniel%20Cesar%20(hautfarben).png?v=1604342587587");
+  background-size: cover;
+}
+.Buttons-Nine {
+  background-image: url("https://cdn.glitch.com/2e404ea6-dcff-4b36-993e-6a619e892ba6%2FMasego%20(hellblau).png?v=1604342587096");
+  background-size: cover;
+}
+
+
+
